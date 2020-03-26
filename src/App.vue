@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" />
+    <h1 class="title">Hi, I'm Negin</h1>
+    <img class="icon" src="./assets/logo.png" />
     <router-view />
   </div>
 </template>
@@ -20,9 +21,26 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title . . ."
+    "icon . . . "
+    "blog blog blog blog"; */
 }
 
+/* .icon,
+.title {
+  border-radius: 50%;
+  grid-area: icon;
+  display: flex;
+} */
+
 img {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 </style>

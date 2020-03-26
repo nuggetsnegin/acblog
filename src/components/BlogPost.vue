@@ -33,6 +33,11 @@ export default {
 
 <template>
   <div class="section" id="blog-post">
+    <div class="navbar-start">
+      <router-link class="navbar-item" to="/">
+        Home
+      </router-link>
+    </div>
     <div class="container center">
       <div class="has-text-centered">
         <router-link

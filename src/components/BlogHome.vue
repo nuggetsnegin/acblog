@@ -28,6 +28,15 @@ export default {
 </script>
 <template>
   <div id="blog-home" class="section">
+    <nav class="navbar is-info">
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <router-link class="navbar-item" to="/">
+            Home
+          </router-link>
+        </div>
+      </div>
+    </nav>
     <div class="container">
       <h1 class="is-size-1">{{ page_title }}</h1>
       <hr />
@@ -50,11 +59,11 @@ export default {
                       :src="post.featured_image"
                       alt=""
                     />
-                    <img
+                    <!-- <img
                       v-else
                       src="http://via.placeholder.com/250x250"
                       alt=""
-                    />
+                    /> -->
                   </figure>
                 </div>
                 <div class="media-content">
@@ -71,3 +80,9 @@ export default {
     </div>
   </div>
 </template>
+
+<style scoped>
+.box {
+  border: 1px solid pink;
+}
+</style>
