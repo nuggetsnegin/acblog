@@ -28,7 +28,7 @@ export default {
 
 <style>
 nav {
-  min-height: 60vh;
+  min-height: 5vh;
   text-transform: uppercase;
 }
 

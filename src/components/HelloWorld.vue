@@ -50,9 +50,7 @@ a:hover {
 
 footer.footer {
   text-transform: lowercase;
-  display: flex;
-  align-content: flex-end;
-  justify-content: center;
+  /* margin-top: auto; */
   background: rgb(255, 228, 233);
 }
 </style>

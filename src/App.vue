@@ -20,8 +20,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
-
   /* display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
@@ -29,6 +27,11 @@ export default {
     "title . . ."
     "icon . . . "
     "blog blog blog blog"; */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 /* .icon,
