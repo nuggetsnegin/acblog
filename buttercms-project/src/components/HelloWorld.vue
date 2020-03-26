@@ -8,9 +8,9 @@
           </router-link>
         </div>
         <div class="navbar-end">
-          <router-link class="navbar-item" to="/faq">
+          <!-- <router-link class="navbar-item" to="/faq">
             FAQ
-          </router-link>
+          </router-link> -->
           <router-link class="navbar-item" to="/blog">
             Blog Posts
           </router-link>
@@ -35,9 +35,25 @@ export default {
 </script>
 
 <style>
+nav {
+  min-height: 60vh;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+  font-weight: 900;
+}
+a:hover {
+  color: palevioletred;
+}
+
 footer.footer {
-  margin-top: 10rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  text-transform: lowercase;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  background: rgb(255, 228, 233);
 }
 </style>
