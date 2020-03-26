@@ -20,11 +20,17 @@ export default {
         });
     }
   },
+  watch: {
+    $route(to, from) {
+      this.getPost();
+    }
+  },
   created() {
     this.getPost();
   }
 };
 </script>
+
 <template>
   <div class="section" id="blog-post">
     <div class="container center">
