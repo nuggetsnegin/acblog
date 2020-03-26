@@ -1,8 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
-import CustomersHome from "@/components/BlogHome";
-import CustomerPage from "@/components/BlogPage";
+import BlogHome from "@/components/BlogHome";
+import BlogPost from "@/components/BlogPost";
 
 Vue.use(Router);
 
@@ -20,8 +20,8 @@ export default new Router({
     },
     {
       path: "/blog/:slug",
-      name: "blog-page",
-      component: BlogPage
+      name: "blog-post",
+      component: BlogPost
     }
   ]
 });
